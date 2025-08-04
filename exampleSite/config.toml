@@ -1,4 +1,4 @@
-baseURL = "https://raditian-hugo.radity.com/"
+baseURL = "https://mafsi.github.io/filip-site/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
@@ -64,8 +64,8 @@ theme = "raditian-free-hugo-theme"
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Andreas"
-    text2 = "Ellure"
+    text1 = "Filip"
+    text2 = "Danilevici"
 
   [params.footer]
       copyright = "© Raditian. All rights reserved."
