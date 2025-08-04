@@ -7,7 +7,7 @@ showcase:
   enable: true
   title: "Bună, sînt Filip."
   subtitle: "Fotograf"
-  description: "Pasionat de fotografie încă din copilarie. Lumea imagii a fost mereu în sufletul meu. Este pe o parte și moștenire de la tata. Dar am ajuns la maturitate și am început să fotografiez pentru că simt. Iubesc să fac aceasta. Frumosul, emoția, bucuria oamenilor și a locurilor le cuprind în fotografii."
+  description: "Pasionat de fotografie încă din copilarie. Lumea imaginii a fost mereu în sufletul meu. Este pe o parte și moștenire de la tata. Dar am ajuns la maturitate și am început să fotografiez pentru că simt. Iubesc să fac aceasta. Frumosul, emoția, bucuria oamenilor și a locurilor le cuprind în fotografii."
   image:
     alt: "Echipamente foto profesionale"
     x: "img/showcase/showcase.png"
@@ -189,7 +189,7 @@ contact:
     number: "+40 XXX XXX XXX"
   email:
     title: "Email"
-    email: '<a href="mailto:filip@example.com">filip@example.com</a>'
+    email: '<a href="mailto:filip@danilevici.ro">filip@danilevici.ro</a>'
   address:
     title: "Locație"
     address: "România<br />Disponibil pentru deplasări"
