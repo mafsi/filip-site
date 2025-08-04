@@ -1,5 +1,5 @@
 baseURL = "https://mafsi.github.io/filip-site/"
-languageCode = "en-us"
+languageCode = "ro"
 theme = "raditian-free-hugo-theme"
 
 # Plugins
@@ -26,35 +26,55 @@ theme = "raditian-free-hugo-theme"
 [menu]
 
   [[menu.header]]
-  name = "About"
+  name = "Acasă"
+  URL = "#showcase"
+  weight = 1
+
+  [[menu.header]]
+  name = "Cine sînt"
   URL = "#about"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Experiență"
+  URL = "#experience"
   weight = 3
+
+  [[menu.header]]
+  name = "Portofoliu"
+  URL = "#client-and-work"
+  weight = 4
 
   [[menu.header]]
   name = "Contact"
   URL = "#contact"
-  weight = 4
+  weight = 5
 
 
   [[menu.footer]]
-  name = "About"
+  name = "Acasă"
+  URL = "#showcase"
+  weight = 1
+
+  [[menu.footer]]
+  name = "Cine sînt"
   URL = "#about"
   weight = 2
 
   [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Experiență"
+  URL = "#experience"
   weight = 3
+
+  [[menu.footer]]
+  name = "Portofoliu"
+  URL = "#client-and-work"
+  weight = 4
 
   [[menu.footer]]
   name = "Contact"
   URL = "#contact"
-  weight = 4
+  weight = 5
 
 
 [params]
@@ -65,10 +85,10 @@ theme = "raditian-free-hugo-theme"
 
   [params.logo]
     text1 = "Filip"
-    text2 = "Danilevici"
+    text2 = "Photography"
 
   [params.footer]
-      copyright = "© Raditian. All rights reserved."
+      copyright = "© 2024 Filip Danilevici Photography. Toate drepturile rezervate."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
