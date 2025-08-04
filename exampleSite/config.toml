@@ -27,7 +27,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "Acasă"
-  URL = "#showcase"
+  URL = "/"
   weight = 1
 
   [[menu.header]]
@@ -53,7 +53,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.footer]]
   name = "Acasă"
-  URL = "#showcase"
+  URL = "/"
   weight = 1
 
   [[menu.footer]]
