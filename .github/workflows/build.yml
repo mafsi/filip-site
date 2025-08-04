@@ -33,6 +33,11 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
         
+      - name: Create themes directory and link theme
+        run: |
+          mkdir -p exampleSite/themes
+          ln -s "$(pwd)" exampleSite/themes/raditian-free-hugo-theme
+          
       - name: Build site from exampleSite
         env:
           HUGO_ENVIRONMENT: production
@@ -42,8 +47,6 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --themesDir ../.. \
-            --theme raditian-free-hugo-theme \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
             
       - name: Upload artifact
