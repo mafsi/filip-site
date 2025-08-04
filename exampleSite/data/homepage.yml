@@ -23,13 +23,13 @@ showcase:
 
   socialLinks:
     - icon: "instagram"
-      URL: "#"
+      URL: "https://www.instagram.com/filipdanilevici"
 
     - icon: "facebook"
-      URL: "#"
+      URL: "https://www.facebook.com/filip.danilevici"
 
-    - icon: "linkedin"
-      URL: "#"
+    - icon: "flickr"
+      URL: "https://www.flickr.com/photos/filip_danilevici/albums/"
 
 # about
 about:

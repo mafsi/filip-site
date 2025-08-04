@@ -88,7 +88,7 @@ theme = "raditian-free-hugo-theme"
     text2 = "Photography"
 
   [params.footer]
-      copyright = "© 2024 Filip Danilevici Photography. Toate drepturile rezervate."
+      copyright = "© 2025 Filip Danilevici Photography. Toate drepturile rezervate."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
