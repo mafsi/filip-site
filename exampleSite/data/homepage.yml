@@ -1,75 +1,54 @@
 # homepage
 homepage:
   head:
-    title: "Home | Raditian"
+    title: "Home | Filip Danilevici Photography"
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Andreas."
-  subtitle: "Front-End Developer"
-  description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+  title: "Bună, sînt Filip."
+  subtitle: "Fotograf"
+  description: "Pasionat de fotografie încă din copilarie. Lumea imagii a fost mereu în sufletul meu. Este pe o parte și moștenire de la tata. Dar am ajuns la maturitate și am început să fotografiez pentru că simt. Iubesc să fac aceasta. Frumosul, emoția, bucuria oamenilor și a locurilor le cuprind în fotografii."
   image:
-    alt: "Showcase keyboard and mouse image"
+    alt: "Echipamente foto profesionale"
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
   imageMobile:
-    alt: "Showcase keyboard and mouse image"
+    alt: "Echipamente foto profesionale"
     x: "img/showcase/showcase-mobile.jpg"
 
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    URL: "#contact"
 
   socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/company/radity/"
-
-    - icon: "github"
-      URL: "https://github.com/radity"
-
-    - icon: "twitter"
-      URL: "https://twitter.com/radity"
-
-    - icon: "dribbble"
-      URL: "https://dribbble.com/radity"
-
-    - icon: "behance"
-      URL: "https://www.behance.net/radity-digital"
-
-    - icon: "youtube"
-      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
-
     - icon: "instagram"
-      URL: "https://www.instagram.com/teamradity/"
-
-    - icon: "facebook"
-      URL: "https://www.facebook.com/raditycom/"
-
-    - icon: "codepen"
       URL: "#"
 
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
+    - icon: "facebook"
+      URL: "#"
+
+    - icon: "linkedin"
+      URL: "#"
 
 # about
 about:
   enable: true
-  title: "Who am I?"
+  title: "Cine sînt?"
   content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
+    Sînt Filip Danilevici, fotograf pasionat din România. Fotografia nu este doar profesia mea,
+    ci o parte esențială din cine sînt. Văd lumea prin obiectiv și încerc să surprind momentele
+    care contează cu adevărat.
     </p>
     <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
+    Specializarea mea include fotografia de portret, evenimente, peisaje și fotografia comercială.
+    Fiecare proiect reprezintă o poveste unică pe care o spun prin imagini. Îmi propun să capturez
+    nu doar momente, ci emoții și amintiri care vor rămîne pentru totdeauna.
     </p>'
   button:
     icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
+    btnText: "Despre Mine"
+    URL: "#about"
   image:
     x: "img/who-am-i/user-picture.png"
     _2x: "img/who-am-i/user-picture@2x.png"
@@ -77,138 +56,123 @@ about:
 # education
 education:
   enable: true
-  title: "Education"
+  title: "Educație și Formare"
   items:
-    - university: "University of Waterloo"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+    - university: "Cursuri de Fotografie Profesională"
+      year: "2018-2020"
+      degree: "Certificat în Fotografie Digitală și Post-procesare"
 
-    - university: "Sir John A Macdonald CI"
-      year: "2009-2012"
-      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+    - university: "Workshop-uri Internaționale"
+      year: "2019-2023"
+      degree: "Tehnici Avansate de Portret și Fotografia de Eveniment"
 
 # experience
 experience:
   enable: true
-  title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  title: "Experiență"
+  description: "Peste 5 ani de experiență în fotografie profesională, lucrînd cu diverse persoane și organizații pentru a crea imagini memorabile și de impact."
   button:
     icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
+    btnText: "LinkedIn"
+    URL: "#"
   button2:
     icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "#"
+    btnText: "Vezi Portfolio"
+    URL: "https://danileviciro.myportfolio.com/"
 
   items:
-    - title: "Sr. Front-End Developer"
-      company: "Radity"
-      duration: "Feb 2011 - Sep 2019"
+    - title: "Fotograf Freelancer"
+      company: "Proiecte Independente"
+      duration: "2020 - Prezent"
 
-    - title: "Sr. Front-End Developer"
-      company: "Textic"
-      duration: "Apr 2010 - Jan 2011"
+    - title: "Fotograf Evenimente"
+      company: "Diverse Agenții"
+      duration: "2019 - 2020"
 
-    - title: "Jr. Front-End Developer"
-      company: "Cyberse"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "Asistent Fotograf"
+      company: "Studio Profesional"
+      duration: "2018 - 2019"
 
 # Client & Work
 client_and_work:
-  title: "Clients & Works"
+  title: "Clienți și Lucrări"
   enable: true
 
   clients:
     - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
+        x: "img/clients/client1.png"
+        _2x: "img/clients/client1@2x.png"
+      alt: "Client 1"
 
     - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
+        x: "img/clients/client2.png"
+        _2x: "img/clients/client2@2x.png"
+      alt: "Client 2"
 
     - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
-
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
+        x: "img/clients/client3.png"
+        _2x: "img/clients/client3@2x.png"
+      alt: "Client 3"
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "Fotografie de Portret"
+      description: "Sesiuni foto profesionale pentru portrete individuale și de familie, capturînd personalitatea și emoțiile autentice."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "Vezi Galerie"
         URL: "#"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "img/works/portraits.jpg"
+        _2x: "img/works/portraits@2x.jpg"
       is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    - title: "Evenimente Speciale"
+      description: "Documentarea momentelor importante din viața ta - nunți, botezuri, aniversări și alte evenimente memorabile."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "Vezi Galerie"
         URL: "#"
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/works/events.jpg"
+        _2x: "img/works/events@2x.jpg"
       is_even: false
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+    - title: "Fotografie Comercială"
+      description: "Imagini profesionale pentru afaceri, produse și servicii, create pentru a transmite mesajul brandului tău."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "Vezi Galerie"
         URL: "#"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+        x: "img/works/commercial.jpg"
+        _2x: "img/works/commercial@2x.jpg"
       is_even: true
 
 # testimonial
 testimonial:
   enable: true
-  title: "Testimonials"
+  title: "Ce spun clienții"
   items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+    - name: "Maria Popescu"
+      position: "Client Nunți"
+      content: "Filip a reușit să surprindă perfect atmosfera nunții noastre. Fotografiile sînt absolut minunate și ne reamintesc de cele mai frumoase momente din ziua cea mare. Profesionalism desăvîrșit!"
       image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+        x: "img/testimonials/client1.jpg"
+        _2x: "img/testimonials/client1@2x.jpg"
 
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+    - name: "Alexandru Ionescu"
+      position: "Antreprenor"
+      content: "Am colaborat cu Filip pentru fotografiile companiei noastre. Calitatea imaginilor este excepțională și a înțeles perfect viziunea brandului nostru. Îl recomand cu încredere!"
       image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+        x: "img/testimonials/client2.jpg"
+        _2x: "img/testimonials/client2@2x.jpg"
 
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+    - name: "Elena Marin"
+      position: "Client Portret"
+      content: "Sesiunea de portrete cu Filip a fost o experiență fantastică. M-a pus în postura potrivită și rezultatul a depășit toate așteptările. Fotografiile sînt artistice și naturale în același timp."
       image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
+        x: "img/testimonials/client3.jpg"
+        _2x: "img/testimonials/client3@2x.jpg"
 
 # contact
 contact:
@@ -217,26 +181,26 @@ contact:
   form:
     method: "POST"
     action: "#"
-    full_name: "Full Name"
-    email: "Email Address"
-    message: "Type Your Message Here"
+    full_name: "Nume Complet"
+    email: "Adresa de Email"
+    message: "Scrie mesajul tău aici"
   phone:
-    title: "Phone Number"
-    number: "+41 (44) 505 10 99"
+    title: "Telefon"
+    number: "+40 XXX XXX XXX"
   email:
     title: "Email"
-    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+    email: '<a href="mailto:filip@example.com">filip@example.com</a>'
   address:
-    title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+    title: "Locație"
+    address: "România<br />Disponibil pentru deplasări"
   button:
     icon: "icon-mail-fill"
-    btnText: "Send Message"
+    btnText: "Trimite Mesaj"
 
 # newsletter
 newsletter:
-  enable: true
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
+  enable: false
+  title: "Abonare Newsletter"
+  success_message: "Abonare reușită"
+  error_message: "Eroare la abonare."
+  note: "Nu vom împărtăși niciodată adresa ta de email."
