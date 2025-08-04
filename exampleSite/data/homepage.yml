@@ -31,6 +31,9 @@ showcase:
     - icon: "flickr"
       URL: "https://www.flickr.com/photos/filip_danilevici/albums/"
 
+    - icon: "youtube"
+      URL:  "https://www.youtube.com/@FilipDanilevici"
+
 # about
 about:
   enable: true
